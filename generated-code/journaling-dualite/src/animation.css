@@ -1,0 +1,3171 @@
+@keyframes animation-12 {
+  from {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-12 {
+  animation: animation-12 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13 {
+  from {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    background: #d8fbbdff;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    z-index: 4;
+    transform: rotate(0deg);
+    background: #d8fbbdff;
+  }
+}
+.animationClass-13 {
+  animation: animation-13 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-112 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-112 {
+  animation: animation-112 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-48 {
+  from {
+    width: 77.1%;
+    height: 7.75%;
+    top: 73.12%;
+    left: 11.45%;
+    opacity: 1;
+    z-index: 3;
+    transform: rotate(0deg);
+    background: #ffffffff;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.animationClass-48 {
+  animation: animation-48 0.001s linear 0s normal forwards;
+}
+@keyframes nullClass-48 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-48 {
+  animation: nullClass-48 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13760 {
+  from {
+    width: 77.1%;
+    height: 7.75%;
+    top: 82.98%;
+    left: 11.45%;
+    opacity: 1;
+    z-index: 5;
+    transform: rotate(0deg);
+    background: #ffffffff;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.animationClass-13760 {
+  animation: animation-13760 0.001s linear 0s normal forwards;
+}
+@keyframes nullClass-13760 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13760 {
+  animation: nullClass-13760 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-83 {
+  from {
+    width: 4.83%;
+    height: 2.23%;
+    top: 12.56%;
+    left: 72.52%;
+    opacity: 1;
+    z-index: 7;
+    transform: rotate(0deg);
+    overflow: hidden;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.animationClass-83 {
+  animation: animation-83 0.001s linear 0s normal forwards;
+}
+@keyframes nullClass-83 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-83 {
+  animation: nullClass-83 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13759 {
+  from {
+    width: 92.88%;
+    height: 24.77%;
+    top: 44.13%;
+    left: 3.56%;
+    opacity: 1;
+    z-index: 9;
+    transform: rotate(0deg);
+    border-radius: 12px 12px 12px 12px;
+    background: #ffffffff;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.animationClass-13759 {
+  animation: animation-13759 0.001s linear 0s normal forwards;
+}
+@keyframes nullClass-13759 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13759 {
+  animation: nullClass-13759 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13764 {
+  from {
+    width: 4.83%;
+    height: 2.23%;
+    top: 12.56%;
+    left: 80.15%;
+    opacity: 1;
+    z-index: 10;
+    transform: rotate(0deg);
+    overflow: hidden;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.animationClass-13764 {
+  animation: animation-13764 0.001s linear 0s normal forwards;
+}
+@keyframes nullClass-13764 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13764 {
+  animation: nullClass-13764 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-null13860 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 92.88%;
+    height: 24.77%;
+    top: 68.19%;
+    left: 3.31%;
+    opacity: 1;
+    z-index: 5;
+    transform: rotate(0deg);
+    border-radius: 12px 12px 12px 12px;
+    background: #ffffffff;
+  }
+}
+.animationClass-null13860 {
+  animation: animation-null13860 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13860 {
+  from {
+    width: 92.88%;
+    height: 24.77%;
+    top: 68.19%;
+    left: 3.31%;
+    opacity: 1;
+    z-index: 5;
+    transform: rotate(0deg);
+    border-radius: 12px 12px 12px 12px;
+    background: #ffffffff;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.animationClass-13860 {
+  animation: animation-13860 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13860 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13860 {
+  animation: nullClass-13860 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-32 {
+  from {
+    width: 78.12%;
+    height: 5.75%;
+    top: 10.33%;
+    left: 9.16%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.animationClass-32 {
+  animation: animation-32 0.001s linear 0s normal forwards;
+}
+@keyframes nullClass-32 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-32 {
+  animation: nullClass-32 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-37 {
+  from {
+    width: 65.14%;
+    height: 25.82%;
+    top: 19.37%;
+    left: 9.16%;
+    opacity: 1;
+    z-index: 2;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.animationClass-37 {
+  animation: animation-37 0.001s linear 0s normal forwards;
+}
+@keyframes nullClass-37 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-37 {
+  animation: nullClass-37 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-49 {
+  from {
+    width: 69.72%;
+    height: 3.87%;
+    top: 75%;
+    left: 37.15%;
+    opacity: 1;
+    z-index: 4;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.animationClass-49 {
+  animation: animation-49 0.001s linear 0s normal forwards;
+}
+@keyframes nullClass-49 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-49 {
+  animation: nullClass-49 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13761 {
+  from {
+    width: 69.72%;
+    height: 3.87%;
+    top: 84.86%;
+    left: 25.19%;
+    z-index: 6;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  to {
+    width: 48.35%;
+    height: 6.34%;
+    top: 62.91%;
+    left: 26.21%;
+    z-index: 2;
+    transform: rotate(0deg);
+    text-align: center;
+    line-height: 0px;
+  }
+}
+.animationClass-13761 {
+  animation: animation-13761 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13761-13761-0 {
+  from {
+    font-size: calc(23 * var(--ratio));
+    font-family: Open Sans;
+    font-weight: 700;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(24 * var(--ratio));
+    color: #000000ff;
+  }
+  to {
+    font-size: calc(23 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(24 * var(--ratio));
+    color: #000000ff;
+  }
+}
+
+.animationClass-13761-13761-0 {
+  animation: animation-13761-13761-0 0.001s linear 0s normal forwards;
+}
+@keyframes animation-410 {
+  from {
+    width: 48.35%;
+    height: 6.34%;
+    top: 62.91%;
+    left: 26.21%;
+    opacity: 1;
+    z-index: 2;
+    transform: rotate(0deg);
+    text-align: center;
+    line-height: 0px;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.animationClass-410 {
+  animation: animation-410 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13761 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13761 {
+  animation: nullClass-13761 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-177 {
+  from {
+    width: 100%;
+    height: 7.04%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 7.04%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-177 {
+  animation: animation-177 0.001s linear 0s normal forwards;
+}
+@keyframes animation-174 {
+  from {
+    width: 100%;
+    height: 7.04%;
+    z-index: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 7.04%;
+    z-index: 1;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-174 {
+  animation: animation-174 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-163 {
+  from {
+    width: 100%;
+    height: 7.04%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 7.04%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-163 {
+  animation: animation-163 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-178 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-178 {
+  animation: animation-178 0.001s linear 0s normal forwards;
+}
+@keyframes animation-175 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+    background: #106f00ff;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+    background: #106f00ff;
+  }
+}
+.animationClass-175 {
+  animation: animation-175 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-119 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-119 {
+  animation: animation-119 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-179 {
+  from {
+    width: 46.56%;
+    height: 51.67%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 46.56%;
+    height: 51.67%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-179 {
+  animation: animation-179 0.001s linear 0s normal forwards;
+}
+@keyframes animation-179-179-0 {
+  from {
+    font-size: calc(23 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(24 * var(--ratio));
+    color: #ffffffff;
+  }
+  to {
+    font-size: calc(23 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(24 * var(--ratio));
+    color: #ffffffff;
+  }
+}
+
+.animationClass-179-179-0 {
+  animation: animation-179-179-0 0.001s linear 0s normal forwards;
+}
+@keyframes animation-176 {
+  from {
+    width: 46.56%;
+    height: 51.67%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 46.56%;
+    height: 51.67%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-176 {
+  animation: animation-176 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-176-176-0 {
+  from {
+    font-size: calc(23 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(24 * var(--ratio));
+    color: #ffffffff;
+  }
+  to {
+    font-size: calc(23 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(24 * var(--ratio));
+    color: #ffffffff;
+  }
+}
+
+.animationClass-176-176-0 {
+  animation: animation-176-176-0 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-120 {
+  from {
+    width: 46.56%;
+    height: 51.67%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 46.56%;
+    height: 51.67%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-120 {
+  animation: animation-120 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-120-120-0 {
+  from {
+    font-size: calc(23 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(24 * var(--ratio));
+    color: #ffffffff;
+  }
+  to {
+    font-size: calc(23 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(24 * var(--ratio));
+    color: #ffffffff;
+  }
+}
+
+.animationClass-120-120-0 {
+  animation: animation-120-120-0 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-1320 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-1320 {
+  animation: nullClass-1320 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null1320 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 90.59%;
+    height: 14.08%;
+    top: 26.06%;
+    left: 4.83%;
+    opacity: 1;
+    z-index: 2;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null1320 {
+  animation: animation-null1320 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-1320 {
+  from {
+    width: 90.59%;
+    height: 14.08%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 90.59%;
+    height: 14.08%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-1320 {
+  animation: animation-1320 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-115 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-115 {
+  animation: nullClass-115 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null115 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+    border-radius: 6px 6px 6px 6px;
+    background: #ffffffff;
+  }
+}
+.animationClass-null115 {
+  animation: animation-null115 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-115 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-115 {
+  animation: animation-115 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-180 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-180 {
+  animation: nullClass-180 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null180 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 94.1%;
+    height: 25%;
+    top: 8.33%;
+    left: 2.53%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+}
+.animationClass-null180 {
+  animation: animation-null180 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-180 {
+  from {
+    width: 94.1%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 94.1%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-180 {
+  animation: animation-180 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-180-180-0 {
+  from {
+    font-size: calc(23 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(24 * var(--ratio));
+    color: #1d1f1dff;
+  }
+  to {
+    font-size: calc(23 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(24 * var(--ratio));
+    color: #1d1f1dff;
+  }
+}
+
+.animationClass-180-180-0 {
+  animation: animation-180-180-0 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-726 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-726 {
+  animation: nullClass-726 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null726 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 90.59%;
+    height: 37.21%;
+    top: 45.07%;
+    left: 4.83%;
+    opacity: 1;
+    z-index: 3;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null726 {
+  animation: animation-null726 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-726 {
+  from {
+    width: 90.59%;
+    height: 37.21%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 90.59%;
+    height: 37.21%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-726 {
+  animation: animation-726 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-725 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-725 {
+  animation: nullClass-725 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null725 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 100%;
+    height: 37.85%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null725 {
+  animation: animation-null725 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-725 {
+  from {
+    width: 100%;
+    height: 37.85%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 37.85%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-725 {
+  animation: animation-725 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-116 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-116 {
+  animation: nullClass-116 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null116 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+    border-radius: 6px 6px 0px 0px;
+    background: #ffffffff;
+  }
+}
+.animationClass-null116 {
+  animation: animation-null116 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-116 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-116 {
+  animation: animation-116 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-1321 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-1321 {
+  animation: nullClass-1321 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null1321 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 92.13%;
+    height: 29.17%;
+    top: 5.83%;
+    left: 2.53%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+}
+.animationClass-null1321 {
+  animation: animation-null1321 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-1321 {
+  from {
+    width: 92.13%;
+    height: 29.17%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 92.13%;
+    height: 29.17%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-1321 {
+  animation: animation-1321 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-1321-1321-0 {
+  from {
+    font-size: calc(23 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(24 * var(--ratio));
+    color: #1d1f1dff;
+  }
+  to {
+    font-size: calc(23 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(24 * var(--ratio));
+    color: #1d1f1dff;
+  }
+}
+
+.animationClass-1321-1321-0 {
+  animation: animation-1321-1321-0 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-723 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-723 {
+  animation: nullClass-723 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null723 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 89.89%;
+    height: 23.33%;
+    top: 50%;
+    left: 3.37%;
+    opacity: 1;
+    z-index: 2;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null723 {
+  animation: animation-null723 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-723 {
+  from {
+    width: 89.89%;
+    height: 23.33%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 89.89%;
+    height: 23.33%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-723 {
+  animation: animation-723 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-72 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-72 {
+  animation: nullClass-72 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null72 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 8.75%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+    background: #d9d9d9ff;
+  }
+}
+.animationClass-null72 {
+  animation: animation-null72 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-72 {
+  from {
+    width: 8.75%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 8.75%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-72 {
+  animation: animation-72 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-713 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-713 {
+  animation: nullClass-713 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null713 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 87.81%;
+    height: 51.77%;
+    top: 32.18%;
+    left: 12.19%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null713 {
+  animation: animation-null713 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-713 {
+  from {
+    width: 87.81%;
+    height: 51.77%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 87.81%;
+    height: 51.77%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-713 {
+  animation: animation-713 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-711 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-711 {
+  animation: nullClass-711 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null711 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 100%;
+    height: 0%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null711 {
+  animation: animation-null711 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-711 {
+  from {
+    width: 100%;
+    height: 0%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 0%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-711 {
+  animation: animation-711 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-712 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-712 {
+  animation: nullClass-712 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null712 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 59.08%;
+    height: 0%;
+    top: 100%;
+    left: 0%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null712 {
+  animation: animation-null712 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-712 {
+  from {
+    width: 59.08%;
+    height: 0%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 59.08%;
+    height: 0%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-712 {
+  animation: animation-712 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-724 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-724 {
+  animation: nullClass-724 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null724 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 100%;
+    height: 62.15%;
+    top: 37.85%;
+    left: 0%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null724 {
+  animation: animation-null724 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-724 {
+  from {
+    width: 100%;
+    height: 62.15%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 62.15%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-724 {
+  animation: animation-724 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-117 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-117 {
+  animation: nullClass-117 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null117 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+    border-radius: 0px 0px 6px 6px;
+    background: #ffffffff;
+  }
+}
+.animationClass-null117 {
+  animation: animation-null117 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-117 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-117 {
+  animation: animation-117 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-1322 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-1322 {
+  animation: nullClass-1322 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null1322 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 92.13%;
+    height: 17.77%;
+    top: 2.03%;
+    left: 2.53%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+}
+.animationClass-null1322 {
+  animation: animation-null1322 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-1322 {
+  from {
+    width: 92.13%;
+    height: 17.77%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 92.13%;
+    height: 17.77%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-1322 {
+  animation: animation-1322 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-1322-1322-0 {
+  from {
+    font-size: calc(23 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(24 * var(--ratio));
+    color: #1d1f1dff;
+  }
+  to {
+    font-size: calc(23 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(24 * var(--ratio));
+    color: #1d1f1dff;
+  }
+}
+
+.animationClass-1322-1322-0 {
+  animation: animation-1322-1322-0 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-722 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-722 {
+  animation: nullClass-722 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null722 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 89.89%;
+    height: 14.21%;
+    top: 28.93%;
+    left: 3.37%;
+    opacity: 1;
+    z-index: 2;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null722 {
+  animation: animation-null722 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-722 {
+  from {
+    width: 89.89%;
+    height: 14.21%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 89.89%;
+    height: 14.21%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-722 {
+  animation: animation-722 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-73 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-73 {
+  animation: nullClass-73 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null73 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 8.75%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+    background: #d9d9d9ff;
+  }
+}
+.animationClass-null73 {
+  animation: animation-null73 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-73 {
+  from {
+    width: 8.75%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 8.75%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-73 {
+  animation: animation-73 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-715 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-715 {
+  animation: nullClass-715 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null715 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 87.81%;
+    height: 51.77%;
+    top: 25%;
+    left: 12.19%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null715 {
+  animation: animation-null715 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-715 {
+  from {
+    width: 87.81%;
+    height: 51.77%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 87.81%;
+    height: 51.77%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-715 {
+  animation: animation-715 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-716 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-716 {
+  animation: nullClass-716 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null716 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 100%;
+    height: 0%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null716 {
+  animation: animation-null716 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-716 {
+  from {
+    width: 100%;
+    height: 0%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 0%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-716 {
+  animation: animation-716 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-717 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-717 {
+  animation: nullClass-717 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null717 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 59.08%;
+    height: 0%;
+    top: 100%;
+    left: 0%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null717 {
+  animation: animation-null717 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-717 {
+  from {
+    width: 59.08%;
+    height: 0%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 59.08%;
+    height: 0%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-717 {
+  animation: animation-717 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-721 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-721 {
+  animation: nullClass-721 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null721 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 89.89%;
+    height: 14.21%;
+    top: 68.53%;
+    left: 3.37%;
+    opacity: 1;
+    z-index: 3;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null721 {
+  animation: animation-null721 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-721 {
+  from {
+    width: 89.89%;
+    height: 14.21%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 89.89%;
+    height: 14.21%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-721 {
+  animation: animation-721 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-74 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-74 {
+  animation: nullClass-74 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null74 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 8.75%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+    background: #d9d9d9ff;
+  }
+}
+.animationClass-null74 {
+  animation: animation-null74 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-74 {
+  from {
+    width: 8.75%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 8.75%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-74 {
+  animation: animation-74 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-718 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-718 {
+  animation: nullClass-718 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null718 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 87.81%;
+    height: 51.77%;
+    top: 25%;
+    left: 12.19%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null718 {
+  animation: animation-null718 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-718 {
+  from {
+    width: 87.81%;
+    height: 51.77%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 87.81%;
+    height: 51.77%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-718 {
+  animation: animation-718 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-719 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-719 {
+  animation: nullClass-719 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null719 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 100%;
+    height: 0%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null719 {
+  animation: animation-null719 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-719 {
+  from {
+    width: 100%;
+    height: 0%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 0%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-719 {
+  animation: animation-719 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-720 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-720 {
+  animation: nullClass-720 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null720 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 59.08%;
+    height: 0%;
+    top: 100%;
+    left: 0%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null720 {
+  animation: animation-null720 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-720 {
+  from {
+    width: 59.08%;
+    height: 0%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 59.08%;
+    height: 0%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-720 {
+  animation: animation-720 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13215 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13215 {
+  animation: nullClass-13215 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null13215 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 99.81%;
+    height: 7.16%;
+    top: 92.84%;
+    left: 0.25%;
+    opacity: 1;
+    z-index: 4;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null13215 {
+  animation: animation-null13215 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13215 {
+  from {
+    width: 99.81%;
+    height: 7.16%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 99.81%;
+    height: 7.16%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13215 {
+  animation: animation-13215 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13216 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13216 {
+  animation: nullClass-13216 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null13216 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 25.05%;
+    height: 98.36%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null13216 {
+  animation: animation-null13216 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13216 {
+  from {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13216 {
+  animation: animation-13216 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13217 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13217 {
+  animation: nullClass-13217 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null13217 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+    background: #d8fbbdff;
+  }
+}
+.animationClass-null13217 {
+  animation: animation-null13217 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13217 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13217 {
+  animation: animation-13217 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13218 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13218 {
+  animation: nullClass-13218 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null13218 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 33.59%;
+    height: 25%;
+    top: 36.67%;
+    left: 31.55%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+    text-align: center;
+    line-height: 0px;
+  }
+}
+.animationClass-null13218 {
+  animation: animation-null13218 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13218 {
+  from {
+    width: 33.59%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 33.59%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13218 {
+  animation: animation-13218 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13218-13218-0 {
+  from {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+  to {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+}
+
+.animationClass-13218-13218-0 {
+  animation: animation-13218-13218-0 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13219 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13219 {
+  animation: nullClass-13219 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null13219 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 25.05%;
+    height: 98.36%;
+    top: 1.64%;
+    left: 24.98%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null13219 {
+  animation: animation-null13219 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13219 {
+  from {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13219 {
+  animation: animation-13219 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13220 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13220 {
+  animation: nullClass-13220 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null13220 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+    background: #d8fbbdff;
+  }
+}
+.animationClass-null13220 {
+  animation: animation-null13220 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13220 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13220 {
+  animation: animation-13220 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13221 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13221 {
+  animation: nullClass-13221 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null13221 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 58.02%;
+    height: 25%;
+    top: 36.67%;
+    left: 19.34%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+    text-align: center;
+    line-height: 0px;
+  }
+}
+.animationClass-null13221 {
+  animation: animation-null13221 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13221 {
+  from {
+    width: 58.02%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 58.02%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13221 {
+  animation: animation-13221 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13221-13221-0 {
+  from {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+  to {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+}
+
+.animationClass-13221-13221-0 {
+  animation: animation-13221-13221-0 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13222 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13222 {
+  animation: nullClass-13222 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null13222 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 25.05%;
+    height: 98.36%;
+    top: 1.64%;
+    left: 49.97%;
+    opacity: 1;
+    z-index: 2;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null13222 {
+  animation: animation-null13222 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13222 {
+  from {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13222 {
+  animation: animation-13222 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13223 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13223 {
+  animation: nullClass-13223 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null13223 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+    background: #d8fbbdff;
+  }
+}
+.animationClass-null13223 {
+  animation: animation-null13223 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13223 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13223 {
+  animation: animation-13223 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13224 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13224 {
+  animation: nullClass-13224 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null13224 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 52.93%;
+    height: 25%;
+    top: 36.67%;
+    left: 22.39%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+    text-align: center;
+    line-height: 0px;
+  }
+}
+.animationClass-null13224 {
+  animation: animation-null13224 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13224 {
+  from {
+    width: 52.93%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 52.93%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13224 {
+  animation: animation-13224 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13224-13224-0 {
+  from {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+  to {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+}
+
+.animationClass-13224-13224-0 {
+  animation: animation-13224-13224-0 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13225 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13225 {
+  animation: nullClass-13225 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null13225 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 25.05%;
+    height: 98.36%;
+    top: 1.64%;
+    left: 74.95%;
+    opacity: 1;
+    z-index: 3;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-null13225 {
+  animation: animation-null13225 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13225 {
+  from {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13225 {
+  animation: animation-13225 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13226 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13226 {
+  animation: nullClass-13226 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null13226 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+    background: #d8fbbdff;
+  }
+}
+.animationClass-null13226 {
+  animation: animation-null13226 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13226 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13226 {
+  animation: animation-13226 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13227 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13227 {
+  animation: nullClass-13227 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null13227 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 37.66%;
+    height: 25%;
+    top: 36.67%;
+    left: 29.52%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+    text-align: center;
+    line-height: 0px;
+  }
+}
+.animationClass-null13227 {
+  animation: animation-null13227 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13227 {
+  from {
+    width: 37.66%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 37.66%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13227 {
+  animation: animation-13227 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13227-13227-0 {
+  from {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+  to {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+}
+
+.animationClass-13227-13227-0 {
+  animation: animation-13227-13227-0 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-null412 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 84.22%;
+    height: 11.62%;
+    top: 16.43%;
+    left: 6.36%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+}
+.animationClass-null412 {
+  animation: animation-null412 0.001s linear 0s normal forwards;
+}
+@keyframes animation-412 {
+  from {
+    width: 84.22%;
+    height: 11.62%;
+    top: 16.43%;
+    left: 6.36%;
+    opacity: 1;
+    z-index: 1;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.animationClass-412 {
+  animation: animation-412 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-412 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-412 {
+  animation: nullClass-412 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-null416 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 93.64%;
+    height: 7.39%;
+    top: 10.68%;
+    left: 6.36%;
+    opacity: 1;
+    z-index: 3;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+}
+.animationClass-null416 {
+  animation: animation-null416 0.001s linear 0s normal forwards;
+}
+@keyframes animation-416 {
+  from {
+    width: 93.64%;
+    height: 7.39%;
+    top: 10.68%;
+    left: 6.36%;
+    opacity: 1;
+    z-index: 3;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.animationClass-416 {
+  animation: animation-416 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-416 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-416 {
+  animation: nullClass-416 0.3s ease-out 0s normal forwards;
+}
+
+@keyframes nullClass-114 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-114 {
+  animation: nullClass-114 0.001s linear 0s normal forwards;
+}
+@keyframes animation-null114 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    width: 60.31%;
+    height: 6.81%;
+    top: 12.32%;
+    left: 7.38%;
+    opacity: 1;
+    z-index: 0;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+}
+.animationClass-null114 {
+  animation: animation-null114 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-114 {
+  from {
+    width: 60.31%;
+    height: 6.81%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 60.31%;
+    height: 6.81%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-114 {
+  animation: animation-114 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-114-114-0 {
+  from {
+    font-size: calc(47 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(48 * var(--ratio));
+    color: #1d1f1dff;
+  }
+  to {
+    font-size: calc(47 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(48 * var(--ratio));
+    color: #1d1f1dff;
+  }
+}
+
+.animationClass-114-114-0 {
+  animation: animation-114-114-0 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13428 {
+  from {
+    width: 99.81%;
+    height: 7.16%;
+    left: 0.25%;
+    z-index: 8;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 99.81%;
+    height: 7.16%;
+    left: 0%;
+    z-index: 4;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13428 {
+  animation: animation-13428 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13441 {
+  from {
+    width: 99.81%;
+    height: 7.16%;
+    top: 92.84%;
+    left: 0%;
+    opacity: 1;
+    z-index: 4;
+    transform: rotate(0deg);
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.animationClass-13441 {
+  animation: animation-13441 0.3s ease-out 0s normal forwards;
+}
+@keyframes nullClass-13428 {
+  from {
+    opacity: 0;
+    z-index: -10;
+  }
+  to {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+.nullAnimation-13428 {
+  animation: nullClass-13428 0.3s ease-out 0s normal forwards;
+}
+@keyframes animation-13429 {
+  from {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13429 {
+  animation: animation-13429 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13430 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13430 {
+  animation: animation-13430 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13431 {
+  from {
+    width: 33.59%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 33.59%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13431 {
+  animation: animation-13431 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13431-13431-0 {
+  from {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+  to {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+}
+
+.animationClass-13431-13431-0 {
+  animation: animation-13431-13431-0 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13432 {
+  from {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13432 {
+  animation: animation-13432 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13433 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13433 {
+  animation: animation-13433 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13434 {
+  from {
+    width: 58.02%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 58.02%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13434 {
+  animation: animation-13434 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13434-13434-0 {
+  from {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+  to {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+}
+
+.animationClass-13434-13434-0 {
+  animation: animation-13434-13434-0 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13435 {
+  from {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13435 {
+  animation: animation-13435 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13436 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13436 {
+  animation: animation-13436 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13437 {
+  from {
+    width: 52.93%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 52.93%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13437 {
+  animation: animation-13437 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13437-13437-0 {
+  from {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+  to {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+}
+
+.animationClass-13437-13437-0 {
+  animation: animation-13437-13437-0 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13438 {
+  from {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 25.05%;
+    height: 98.36%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13438 {
+  animation: animation-13438 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13439 {
+  from {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13439 {
+  animation: animation-13439 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13440 {
+  from {
+    width: 37.66%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+  to {
+    width: 37.66%;
+    height: 25%;
+    transform: rotate(0deg);
+  }
+}
+.animationClass-13440 {
+  animation: animation-13440 0.001s linear 0s normal forwards;
+}
+@keyframes animation-13440-13440-0 {
+  from {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+  to {
+    font-size: calc(11 * var(--ratio));
+    font-family: Inter;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: none;
+
+    line-height: calc(12 * var(--ratio));
+    color: #052700ff;
+  }
+}
+
+.animationClass-13440-13440-0 {
+  animation: animation-13440-13440-0 0.001s linear 0s normal forwards;
+}
