@@ -8,11 +8,15 @@ export default function HomeScreen() {
       <StatusBar style="auto" />
 
       <View style={styles.container2}>
-        <Text>(mood bar goes here)</Text>
+        <Text>how are you feeling today?</Text>
+        <Text>(mood buttons go here)</Text>
       </View>
       
       <View style={styles.container2}>
-        <Text>(this is the prompts area)</Text>
+        <Text>journaling prompt</Text>
+        <Text>(prompt goes here)</Text>
+        <Text>daily tasks</Text>
+        <Text>(tasks go here)</Text>
       </View>
     </View>
   );
@@ -30,6 +34,6 @@ const styles = StyleSheet.create({
   container2: {
     backgroundColor: '#FFFFFF',
     marginTop: 20,
-    padding: 20
+    padding: 20,
   }
 });
