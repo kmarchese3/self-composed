@@ -4,13 +4,15 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text>hello, user</Text>
+      <Text style={{fontWeight: 'bold'}}>hello, user</Text>
       <StatusBar style="auto" />
-      <View style={{ backgroundColor: '#FFFFFF'}}>
-        <Text>mood bar goes here</Text>
+
+      <View style={styles.container2}>
+        <Text>(mood bar goes here)</Text>
       </View>
-      <View>
-        <Text>this is the prompts area</Text>
+      
+      <View style={styles.container2}>
+        <Text>(this is the prompts area)</Text>
       </View>
     </View>
   );
@@ -23,4 +25,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  container2: {
+    backgroundColor: '#FFFFFF'
+  }
 });
