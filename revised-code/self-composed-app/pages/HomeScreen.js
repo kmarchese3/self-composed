@@ -21,11 +21,15 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexDirection: 'column',
     backgroundColor: '#D8FBBD',
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: 'left',
+    justifyContent: 'top',
+    padding: 20
   },
   container2: {
-    backgroundColor: '#FFFFFF'
+    backgroundColor: '#FFFFFF',
+    marginTop: 20,
+    padding: 20
   }
 });
