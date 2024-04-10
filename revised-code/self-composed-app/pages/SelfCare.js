@@ -1,5 +1,5 @@
 // import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, TextInput, View, FlatList } from 'react-native';
+import { StyleSheet, Text, View, FlatList, TouchableOpacity } from 'react-native';
 
 const dataSource = [
     {key: '001', firstName: 'Task 1'},
@@ -10,15 +10,18 @@ const dataSource = [
 
 export default function SelfCare() {
     return (
-        <View style = {styles.container}>
-        <View>
-            <Text style = {styles.header}>Self Care</Text>
+        <View style={styles.container}>
+        <View style={styles.headerContainer}>
+            <Text style={styles.header}>Self Care</Text>
+            <TouchableOpacity style={styles.button}>
+                <Text style={styles.buttonTitle}>+</Text>
+            </TouchableOpacity>
         </View>
         <View>
             <FlatList
                 data={dataSource}
                 renderItem={({item}) =>
-                <Text style = {styles.item}>{item.firstName}</Text>
+                <Text style={styles.item}>{item.firstName}</Text>
             }
             />
         </View>
@@ -28,12 +31,28 @@ export default function SelfCare() {
 
 const styles = StyleSheet.create({
     container: {
+     flex: 1,
      paddingTop: 50,
      backgroundColor: '#D8FBBD',
     },
+    headerContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        paddingRight: 10,
+        paddingBottom: 2,
+    },
     header: {
-        textAlign: 'center',
-        fontSize: 20
+        fontSize: 20,
+        paddingLeft: 10,
+    },
+    button: {
+        paddingLeft: 5,
+        paddingRight: 5,
+    },
+    buttonTitle: {
+        color: "green",
+        fontSize: 30,
     },
     item: {
       padding: 10,
@@ -43,9 +62,3 @@ const styles = StyleSheet.create({
       borderColor: "gray",
     },
   });  
-
-// <View style={{flex: 1, paddingTop: 40, paddingBottom: 40, flexDirection: 'column'}}>
-//             <Text style = {{ flex: 1, backgroundColor: "red" }}>Hello World!</Text>
-//             <Text style = {{ flex: 1, backgroundColor: "blue" }}>Hello World!</Text>
-//             <Text style = {{ flex: 1, backgroundColor: "yellow" }}>Hello World!</Text>
-//         </View>
