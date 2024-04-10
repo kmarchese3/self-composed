@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     backgroundColor: '#D8FBBD',
-    alignItems: 'left',
+    alignItems: 'center',
     justifyContent: 'top',
     padding: 20,
     fontFamily: 'Inter'
