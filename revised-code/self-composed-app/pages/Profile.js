@@ -30,13 +30,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'top',
     padding: 20,
-    fontFamily: 'Inter'
   },
   container2: {
     backgroundColor: '#FFFFFF',
     borderRadius: 6,
     marginTop: 20,
     padding: 20,
+    flex: 2,
+    flexDirection: 'column',
+    justifyContent: 'space-evenly',
   },
   containertext: {
     fontSize: '3vmin',
