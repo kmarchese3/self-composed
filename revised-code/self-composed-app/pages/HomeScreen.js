@@ -1,22 +1,28 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import { NavBar } from '../components/NavBar';
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text style={{fontWeight: 'bold', fontSize: '8vmin', paddingLeft: 20}}>hello, user</Text>
-      <StatusBar style="auto" />
+      <ScrollView>
+        <Text style={{fontWeight: 'bold', fontSize: '8vmin', paddingLeft: 20}}>hello, user</Text>
+        <StatusBar style="auto" />
 
-      <View style={styles.container2}>
-        <Text style={styles.containertext}>how are you feeling today?</Text>
-        <Text style={styles.containersubtext}>😃 😔 😠 🥱</Text>
-      </View>
-      
-      <View style={styles.container2}>
-        <Text style={styles.containertext}>journaling prompt</Text>
-        <Text style={styles.containersubtext}>(prompt goes here)</Text>
-        <Text style={styles.containertext}>daily tasks</Text>
-        <Text style={styles.containersubtext}>(tasks go here)</Text>
+        <View style={styles.container2}>
+          <Text style={styles.containertext}>how are you feeling today?</Text>
+          <Text style={styles.containersubtext}>😃 😔 😠 🥱</Text>
+        </View>
+        
+        <View style={styles.container2}>
+          <Text style={styles.containertext}>journaling prompt</Text>
+          <Text style={styles.containersubtext}>(prompt goes here)</Text>
+          <Text style={styles.containertext}>daily tasks</Text>
+          <Text style={styles.containersubtext}>(tasks go here)</Text>
+        </View>
+      </ScrollView>
+      <View>
+        <NavBar />
       </View>
     </View>
   );
@@ -28,7 +34,6 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     backgroundColor: '#D8FBBD',
     alignItems: 'left',
-    justifyContent: 'top',
     padding: 20,
     fontFamily: 'Inter'
   },
