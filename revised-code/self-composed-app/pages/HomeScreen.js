@@ -1,8 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import { NavBar } from '../components/NavBar';
+import { useNavigation } from '@react-navigation/native';
 
 export default function HomeScreen() {
+  const navigation = useNavigation()
+
   return (
     <View style={styles.container}>
       <ScrollView>
@@ -17,7 +20,7 @@ export default function HomeScreen() {
         <View style={styles.container2}>
           <Text style={styles.containertext}>journaling prompt</Text>
           <Text style={styles.containersubtext}>(prompt goes here)</Text>
-          <Text style={styles.containertext}>daily tasks</Text>
+          <Text style={styles.containertext} onClick={() => navigation.navigate('SelfCare')}>daily tasks</Text>
           <Text style={styles.containersubtext}>(tasks go here)</Text>
         </View>
       </ScrollView>
