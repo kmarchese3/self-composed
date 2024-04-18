@@ -1,12 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import HomeScreen from "./pages/HomeScreen";
+import Profile from "./pages/Profile"
+import SelfCare from "./pages/SelfCare"
+import SelfCareAdd from "./pages/SelfCareAdd"
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <HomeScreen />
+    //<Profile />
+    //<SelfCare />
+    //<SelfCareAdd />
   );
 }
 
