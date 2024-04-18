@@ -5,9 +5,9 @@ export const NavBar = () => {
     const navigation = useNavigation()
     return (
         <View style={styles.navbarcontainer}>
-            <Text style={styles.navbartext}>home</Text>
+            <Text style={styles.navbartext} onClick={() => navigation.navigate('Home')}>home</Text>
             <Text style={styles.navbartext}>journaling</Text>
-            <Text style={styles.navbartext}>self-care</Text>
+            <Text style={styles.navbartext} onClick={() => navigation.navigate('SelfCare')}>self-care</Text>
             <Text style={styles.navbartext} onClick={() => navigation.navigate('Profile')}>profile</Text>
         </View>
     )
