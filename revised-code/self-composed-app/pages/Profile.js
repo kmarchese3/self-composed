@@ -1,22 +1,28 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import { NavBar } from '../components/NavBar';
 
 export default function Profile() {
   return (
     <View style={styles.container}>
-      <View>
-        <Text>(profile pic goes here)</Text>
-      </View>
-      
-      <Text style={{fontWeight: 'bold'}}>(display task streak)</Text>
-      <StatusBar style="auto" />
+      <ScrollView>
+          <View>
+            <Text>(profile pic goes here)</Text>
+          </View>
+          
+          <Text style={{fontWeight: 'bold'}}>(display task streak)</Text>
+          <StatusBar style="auto" />
 
-      <View style={styles.container2}>
-        <Text>(tasks completed chart goes here)</Text>
-      </View>
-      
-      <View style={styles.container2}>
-        <Text>(mood chart goes here)</Text>
+          <View style={styles.container2}>
+            <Text>(tasks completed chart goes here)</Text>
+          </View>
+          
+          <View style={styles.container2}>
+            <Text>(mood chart goes here)</Text>
+          </View>
+      </ScrollView>
+      <View>
+        <NavBar />
       </View>
     </View>
   );
