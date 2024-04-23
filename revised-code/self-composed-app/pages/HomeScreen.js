@@ -43,7 +43,7 @@ export default function HomeScreen() {
           <Text>journaling prompt</Text>
           <Text>(prompt goes here)</Text>
           <Pressable onPress={() => navigation.navigate('SelfCare')} >
-            <Text onClick={() => navigation.navigate('SelfCare')}>daily tasks</Text>
+            <Text onClick={() => navigation.navigate('SelfCare')}>self-care tasks</Text>
           </Pressable>
           <Text>(tasks go here)</Text>
         </View>
