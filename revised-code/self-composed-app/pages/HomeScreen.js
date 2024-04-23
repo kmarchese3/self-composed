@@ -42,10 +42,14 @@ export default function HomeScreen() {
           <Pressable onPress={() => navigation.navigate('SelfCare')} >
             <Text style={styles.containerheader} onClick={() => navigation.navigate('SelfCare')}>self-care tasks</Text>
           </Pressable>
-          <View style={styles.row}>
-            <Checkbox style={styles.checkbox} value={isChecked} onValueChange={setChecked} color='gray' />
-            <Text style={isChecked ? styles.checkedText : styles.uncheckedText}>{selfCareTasks[0]}</Text>
-          </View>
+            {
+              selfCareTasks.map((task, i) => (
+                <View style={styles.row}>
+                    <Checkbox style={styles.checkbox} value={isChecked} onValueChange={setChecked} color='gray' />
+                    <Text style={isChecked ? styles.checkedText : styles.uncheckedText}>{task}</Text>
+                </View>
+              ))
+            }
         </View>
 
       </ScrollView>

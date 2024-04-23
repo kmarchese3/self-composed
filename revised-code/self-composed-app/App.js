@@ -14,7 +14,8 @@ global.journalingPrompts = [
 ];
 global.selfCareTasks = [
   'make your bed',
-  'eat breakfast'
+  'eat breakfast',
+  'stretch'
 ];
 global.streak = 5;
 global.mood = '';
