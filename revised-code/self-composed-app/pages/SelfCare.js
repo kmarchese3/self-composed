@@ -1,5 +1,7 @@
 // import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, FlatList, TouchableOpacity } from 'react-native';
+import { NavBar } from '../components/NavBar';
+import { useNavigation } from '@react-navigation/native';
 
 const dataSource = [
     {key: '001', firstName: 'Task 1'},
@@ -9,12 +11,14 @@ const dataSource = [
 ];
 
 export default function SelfCare() {
+    const navigation = useNavigation()
+
     return (
         <View style={styles.container}>
         <View style={styles.headerContainer}>
             <Text style={styles.header}>Self Care</Text>
             <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonTitle}>+</Text>
+                <Text style={styles.buttonTitle} onClick={() => navigation.navigate('SelfCareAdd')}>+</Text>
             </TouchableOpacity>
         </View>
         <View>
@@ -24,6 +28,9 @@ export default function SelfCare() {
                 <Text style={styles.item}>{item.firstName}</Text>
             }
             />
+        </View>
+        <View>
+            <NavBar />
         </View>
         </View>
     );

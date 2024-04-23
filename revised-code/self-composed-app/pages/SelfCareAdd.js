@@ -1,4 +1,6 @@
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from "react-native";
+import { NavBar } from '../components/NavBar';
+import { useNavigation } from '@react-navigation/native';
 
 export default function SelfCareAdd() {
     return (
@@ -33,6 +35,9 @@ export default function SelfCareAdd() {
                         <Text style={styles.buttonTitle}>Submit</Text>
                     </TouchableOpacity>
                 </View>
+            </View>
+            <View>
+                <NavBar />
             </View>
         </View>
     );
