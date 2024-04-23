@@ -1,18 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, ScrollView, Image, ImageBackground } from 'react-native';
 import { NavBar } from '../components/NavBar';
 
 export default function Profile() {
   return (
     <View style={styles.container}>
       <ScrollView>
+        <View style={styles.profileheader}>
           <View>
-            <Text>(profile pic goes here)</Text>
+            <Image source={require('../assets/profile-pic.png')} style={{width: 150, height: 150}}/>
           </View>
           
-          <Text style={{fontWeight: 'bold'}}>(display task streak)</Text>
+          <Text style={{fontWeight: 'bold', paddingTop: 10}}>✨X-day task streak!</Text>
           <StatusBar style="auto" />
+        </View>
 
+          <Text>tasks completed chart</Text>
           <View style={styles.container2}>
             <Text>(tasks completed chart goes here)</Text>
           </View>
@@ -33,7 +36,6 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     backgroundColor: '#D8FBBD',
-    alignItems: 'center',
     justifyContent: 'top',
     padding: 20,
   },
@@ -53,5 +55,8 @@ const styles = StyleSheet.create({
   containersubtext: {
     fontSize: '2.5vmin',
     lineHeight: '3.5vmin'
-  }
+  },
+  profileheader: {
+    alignItems: 'center',
+  },
 });
