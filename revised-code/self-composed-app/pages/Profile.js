@@ -22,7 +22,7 @@ export default function Profile() {
           </View>
           
           <View style={styles.container2}>
-            <Text>(mood chart goes here)</Text>
+            {mood !== '' && <Text>mood today: {mood}</Text>}
           </View>
       </ScrollView>
       <View>

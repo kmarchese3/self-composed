@@ -16,6 +16,7 @@ global.selfCareTasks = [
   'make your bed',
 ];
 global.streak = 5;
+global.mood = '';
 
 export default function App() {
   return (

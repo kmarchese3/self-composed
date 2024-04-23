@@ -16,10 +16,18 @@ export default function HomeScreen() {
         <View style={styles.container2}>
           <Text style={styles.containerheader}>how are you feeling today?</Text>
           <View style={styles.emoji}>
-            <Text style={styles.emojis}>😃</Text>
-            <Text style={styles.emojis}>😔</Text>
-            <Text style={styles.emojis}>😠</Text>
-            <Text style={styles.emojis}>🥱</Text>
+            <Pressable onPress={() => mood='happy'}>
+              <Text style={styles.emojis}>😃</Text>
+            </Pressable>
+            <Pressable onPress={() => mood='sad'}>
+              <Text style={styles.emojis}>😔</Text>
+            </Pressable>
+            <Pressable onPress={() => mood='angry'}>          
+              <Text style={styles.emojis}>😠</Text>
+            </Pressable>
+            <Pressable onPress={() => mood='tired'}>
+              <Text style={styles.emojis}>🥱</Text>
+            </Pressable>
           </View>
         </View>
 
@@ -28,7 +36,7 @@ export default function HomeScreen() {
           <Text style={styles.containerheader}>journaling prompt</Text>
           <View style={styles.row}>
             <Checkbox style={styles.checkbox} value={isChecked} onValueChange={setChecked} color='gray' />
-            <Text style={{padding: 5, alignItems: 'center'}}>{journalingPrompts[0]}</Text>
+            <Text style={isChecked ? styles.checkedText : styles.uncheckedText}>{journalingPrompts[0]}</Text>
           </View>
 
           <Pressable onPress={() => navigation.navigate('SelfCare')} >
@@ -36,7 +44,7 @@ export default function HomeScreen() {
           </Pressable>
           <View style={styles.row}>
             <Checkbox style={styles.checkbox} value={isChecked} onValueChange={setChecked} color='gray' />
-            <Text style={{padding: 5, alignItems: 'center'}}>{selfCareTasks[0]}</Text>
+            <Text style={isChecked ? styles.checkedText : styles.uncheckedText}>{selfCareTasks[0]}</Text>
           </View>
         </View>
 
@@ -79,5 +87,13 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between'
   }, emojis: {
     fontSize: 40,
+  }, uncheckedText: {
+    padding: 5,
+    alignItems: 'center',
+  }, checkedText: {
+    padding: 5,
+    alignItems: 'center',
+    textDecorationLine: 'line-through',
+    color: 'gray',
   }
 });
