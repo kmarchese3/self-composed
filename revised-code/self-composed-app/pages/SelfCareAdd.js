@@ -1,6 +1,10 @@
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from "react-native";
+import { NavBar } from '../components/NavBar';
+import { useNavigation } from '@react-navigation/native';
 
 export default function SelfCareAdd() {
+    const navigation = useNavigation()
+
     return (
         <View style={styles.container}>
             <View style={styles.headerContainer}>
@@ -30,9 +34,12 @@ export default function SelfCareAdd() {
                 </View>
                 <View style={styles.buttonContainer}>
                     <TouchableOpacity style={styles.button}>
-                        <Text style={styles.buttonTitle}>Submit</Text>
+                        <Text style={styles.buttonTitle} onClick={() => navigation.navigate('SelfCare')}>Submit</Text>
                     </TouchableOpacity>
                 </View>
+            </View>
+            <View>
+                <NavBar />
             </View>
         </View>
     );
@@ -82,7 +89,7 @@ const styles = StyleSheet.create({
         width: 150,
         height: 50,
         padding: 5,
-        backgroundColor: '#106F00',
+        backgroundColor: '#0A5200',
         borderRadius: 8,
     },
     buttonTitle: {
