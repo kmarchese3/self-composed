@@ -3,6 +3,8 @@ import { StyleSheet, Text, View, ScrollView, Image, ImageBackground } from 'reac
 import { NavBar } from '../components/NavBar';
 
 export default function Profile() {
+  var streak = 5;
+
   return (
     <View style={styles.container}>
       <ScrollView>
@@ -11,7 +13,7 @@ export default function Profile() {
             <Image source={require('../assets/profile-pic.png')} style={{width: 150, height: 150}}/>
           </View>
           
-          <Text style={{fontWeight: 'bold', paddingTop: 10}}>✨X-day task streak!</Text>
+          <Text style={{fontWeight: 'bold', paddingTop: 10}}>✨{streak}-day task streak!</Text>
           <StatusBar style="auto" />
         </View>
 
@@ -49,6 +51,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-evenly',
   },
   profileheader: {
+    paddingTop: 50,
     alignItems: 'center',
   },
 });
