@@ -9,6 +9,14 @@ import SelfCareAdd from "./pages/SelfCareAdd"
 
 const Stack = createNativeStackNavigator();
 
+global.journalingPrompts = [
+  "what's your favorite thing about yourself and why?"
+];
+global.selfCareTasks = [
+  'make your bed',
+];
+global.streak = 5;
+
 export default function App() {
   return (
     <NavigationContainer>

@@ -3,7 +3,6 @@ import { StyleSheet, Text, View, ScrollView, Image, ImageBackground } from 'reac
 import { NavBar } from '../components/NavBar';
 
 export default function Profile() {
-  var streak = 5;
 
   return (
     <View style={styles.container}>

@@ -28,7 +28,7 @@ export default function HomeScreen() {
           <Text style={styles.containerheader}>journaling prompt</Text>
           <View style={styles.row}>
             <Checkbox style={styles.checkbox} value={isChecked} onValueChange={setChecked} color='gray' />
-            <Text style={{padding: 5, alignItems: 'center'}}>(prompt goes here)</Text>
+            <Text style={{padding: 5, alignItems: 'center'}}>{journalingPrompts[0]}</Text>
           </View>
 
           <Pressable onPress={() => navigation.navigate('SelfCare')} >
@@ -36,7 +36,7 @@ export default function HomeScreen() {
           </Pressable>
           <View style={styles.row}>
             <Checkbox style={styles.checkbox} value={isChecked} onValueChange={setChecked} color='gray' />
-            <Text style={{padding: 5, alignItems: 'center'}}>(tasks goes here)</Text>
+            <Text style={{padding: 5, alignItems: 'center'}}>{selfCareTasks[0]}</Text>
           </View>
         </View>
 
