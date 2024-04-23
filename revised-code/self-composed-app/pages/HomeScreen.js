@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, ScrollView, Pressable } from 'react-native';
 import { NavBar } from '../components/NavBar';
 import { useNavigation } from '@react-navigation/native';
 
@@ -42,7 +42,9 @@ export default function HomeScreen() {
         <View style={styles.container2}>
           <Text>journaling prompt</Text>
           <Text>(prompt goes here)</Text>
-          <Text onClick={() => navigation.navigate('SelfCare')}>daily tasks</Text>
+          <Pressable onPress={() => navigation.navigate('SelfCare')} >
+            <Text onClick={() => navigation.navigate('SelfCare')}>daily tasks</Text>
+          </Pressable>
           <Text>(tasks go here)</Text>
         </View>
 
