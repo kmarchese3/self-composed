@@ -3,6 +3,8 @@ import { NavBar } from '../components/NavBar';
 import { useNavigation } from '@react-navigation/native';
 
 export default function SelfCareAdd() {
+    const navigation = useNavigation()
+
     return (
         <View style={styles.container}>
             <View style={styles.headerContainer}>
@@ -32,7 +34,7 @@ export default function SelfCareAdd() {
                 </View>
                 <View style={styles.buttonContainer}>
                     <TouchableOpacity style={styles.button}>
-                        <Text style={styles.buttonTitle}>Submit</Text>
+                        <Text style={styles.buttonTitle} onClick={() => navigation.navigate('SelfCare')}>Submit</Text>
                     </TouchableOpacity>
                 </View>
             </View>
