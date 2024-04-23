@@ -1,28 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ScrollView, Pressable } from 'react-native';
+import Checkbox from 'expo-checkbox';
+import { useState } from 'react';
 import { NavBar } from '../components/NavBar';
 import { useNavigation } from '@react-navigation/native';
 
 export default function HomeScreen() {
-  const navigation = useNavigation()
-
-
-  /*
-  <Text style={{fontWeight: 'bold', fontSize: 50, paddingLeft: 20, paddingTop: 50}}>hello, user</Text>
-        <StatusBar style="auto" />
-
-        <View style={styles.container2}>
-          <Text style={styles.containertext}>how are you feeling today?</Text>
-          <Text style={styles.emoji}>😃 😔 😠 🥱</Text>
-        </View>
-        
-        <View style={styles.container2}>
-          <Text style={styles.containertext}>journaling prompt</Text>
-          <Text style={styles.containersubtext}>(prompt goes here)</Text>
-          <Text style={styles.containertext} onClick={() => navigation.navigate('SelfCare')}>daily tasks</Text>
-          <Text style={styles.containersubtext}>(tasks go here)</Text>
-        </View>
-  */
+  const navigation = useNavigation();
+  const[isChecked, setChecked] = useState(false)
 
   return (
     <View style={styles.container}>
@@ -30,7 +14,7 @@ export default function HomeScreen() {
         <Text style={{fontWeight: 'bold', fontSize: 50, paddingLeft: 20, paddingTop: 50}}>hello, user</Text>
 
         <View style={styles.container2}>
-          <Text>how are you feeling today?</Text>
+          <Text style={styles.containerheader}>how are you feeling today?</Text>
           <View style={styles.emoji}>
             <Text style={styles.emojis}>😃</Text>
             <Text style={styles.emojis}>😔</Text>
@@ -40,12 +24,20 @@ export default function HomeScreen() {
         </View>
 
         <View style={styles.container2}>
-          <Text>journaling prompt</Text>
-          <Text>(prompt goes here)</Text>
+          
+          <Text style={styles.containerheader}>journaling prompt</Text>
+          <View style={styles.row}>
+            <Checkbox style={styles.checkbox} value={isChecked} onValueChange={setChecked} color='gray' />
+            <Text style={{padding: 5, alignItems: 'center'}}>(prompt goes here)</Text>
+          </View>
+
           <Pressable onPress={() => navigation.navigate('SelfCare')} >
-            <Text onClick={() => navigation.navigate('SelfCare')}>self-care tasks</Text>
+            <Text style={styles.containerheader} onClick={() => navigation.navigate('SelfCare')}>self-care tasks</Text>
           </Pressable>
-          <Text>(tasks go here)</Text>
+          <View style={styles.row}>
+            <Checkbox style={styles.checkbox} value={isChecked} onValueChange={setChecked} color='gray' />
+            <Text style={{padding: 5, alignItems: 'center'}}>(tasks goes here)</Text>
+          </View>
         </View>
 
       </ScrollView>
@@ -72,6 +64,13 @@ const styles = StyleSheet.create({
     flex: 2,
     flexDirection: 'column',
     justifyContent: 'space-evenly',
+  },
+  row: {
+    flexDirection: 'row',
+    paddingTop: 5,
+  },
+  containerheader: {
+    fontSize: 20
   },
   emoji: {
     paddingTop: 10,
