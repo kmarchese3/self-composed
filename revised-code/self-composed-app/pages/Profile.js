@@ -12,17 +12,18 @@ export default function Profile() {
             <Image source={require('../assets/profile-pic.png')} style={{width: 150, height: 150}}/>
           </View>
           
-          <Text style={{fontWeight: 'bold', paddingTop: 10}}>✨{streak}-day task streak!</Text>
+          <Text style={{fontWeight: 'bold', paddingTop: 10, fontSize: 20}}>✨{streak}-day task streak!</Text>
           <StatusBar style="auto" />
         </View>
 
-          <Text>tasks completed chart</Text>
+          <Text style={{marginTop: 20, fontSize: 20, padding: 5}}>tasks completed this week</Text>
           <View style={styles.container2}>
-            <Text>(tasks completed chart goes here)</Text>
+            <Text>no data found</Text>
           </View>
           
+          <Text style={{fontSize: 20, padding: 5}}>mood tracker</Text>
           <View style={styles.container2}>
-            {mood !== '' && <Text>mood today: {mood}</Text>}
+            {mood !== '' ? ( <Text>mood today: {mood}</Text> ) : ( <Text>no data found</Text> )}
           </View>
       </ScrollView>
       <View>
@@ -43,7 +44,7 @@ const styles = StyleSheet.create({
   container2: {
     backgroundColor: '#FFFFFF',
     borderRadius: 6,
-    marginTop: 20,
+    marginBottom: 20,
     padding: 20,
     flex: 2,
     flexDirection: 'column',
