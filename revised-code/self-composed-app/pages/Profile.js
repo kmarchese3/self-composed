@@ -48,14 +48,6 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'space-evenly',
   },
-  containertext: {
-    fontSize: '3vmin',
-    lineHeight: '4vmin'
-  },
-  containersubtext: {
-    fontSize: '2.5vmin',
-    lineHeight: '3.5vmin'
-  },
   profileheader: {
     alignItems: 'center',
   },

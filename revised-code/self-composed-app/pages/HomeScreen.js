@@ -6,15 +6,14 @@ import { useNavigation } from '@react-navigation/native';
 export default function HomeScreen() {
   const navigation = useNavigation()
 
-  return (
-    <View style={styles.container}>
-      <ScrollView>
-        <Text style={{fontWeight: 'bold', fontSize: '8vmin', paddingLeft: 20}}>hello, user</Text>
+
+  /*
+  <Text style={{fontWeight: 'bold', fontSize: 50, paddingLeft: 20, paddingTop: 50}}>hello, user</Text>
         <StatusBar style="auto" />
 
         <View style={styles.container2}>
           <Text style={styles.containertext}>how are you feeling today?</Text>
-          <Text style={styles.containersubtext}>😃 😔 😠 🥱</Text>
+          <Text style={styles.emoji}>😃 😔 😠 🥱</Text>
         </View>
         
         <View style={styles.container2}>
@@ -23,6 +22,30 @@ export default function HomeScreen() {
           <Text style={styles.containertext} onClick={() => navigation.navigate('SelfCare')}>daily tasks</Text>
           <Text style={styles.containersubtext}>(tasks go here)</Text>
         </View>
+  */
+
+  return (
+    <View style={styles.container}>
+      <ScrollView>
+        <Text style={{fontWeight: 'bold', fontSize: 50, paddingLeft: 20, paddingTop: 50}}>hello, user</Text>
+
+        <View style={styles.container2}>
+          <Text>how are you feeling today?</Text>
+          <View style={styles.emoji}>
+            <Text style={styles.emojis}>😃</Text>
+            <Text style={styles.emojis}>😔</Text>
+            <Text style={styles.emojis}>😠</Text>
+            <Text style={styles.emojis}>🥱</Text>
+          </View>
+        </View>
+
+        <View style={styles.container2}>
+          <Text>journaling prompt</Text>
+          <Text>(prompt goes here)</Text>
+          <Text onClick={() => navigation.navigate('SelfCare')}>daily tasks</Text>
+          <Text>(tasks go here)</Text>
+        </View>
+
       </ScrollView>
       <View>
         <NavBar />
@@ -36,27 +59,24 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     backgroundColor: '#D8FBBD',
-    alignItems: 'left',
+    justifyContent: 'top',
     padding: 20,
-    fontFamily: 'Inter'
   },
   container2: {
-    flex: 2,
-    flexDirection: 'column',
     backgroundColor: '#FFFFFF',
     borderRadius: 6,
     marginTop: 20,
     padding: 20,
-  },
-  containertext: {
-    fontSize: '4vmin',
-    lineHeight: '5vmin'
-  },
-  containersubtext: {
-    fontSize: '3vmin',
-    lineHeight: '4vmin'
+    flex: 2,
+    flexDirection: 'column',
+    justifyContent: 'space-evenly',
   },
   emoji: {
-
+    paddingTop: 10,
+    textAlign: 'center',
+    flexDirection: 'row',
+    justifyContent: 'space-between'
+  }, emojis: {
+    fontSize: 40,
   }
 });
