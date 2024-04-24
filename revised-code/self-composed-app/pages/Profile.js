@@ -12,7 +12,7 @@ export default function Profile() {
             <Image source={require('../assets/profile-pic.png')} style={{width: 150, height: 150}}/>
           </View>
           
-          <Text style={{fontWeight: 'bold', paddingTop: 10, fontSize: 20}}>✨{streak}-day task streak!</Text>
+          {streak > 0 && <Text style={{fontWeight: 'bold', paddingTop: 10, fontSize: 20}}>✨{streak}-day task streak!</Text>}
           <StatusBar style="auto" />
         </View>
 
