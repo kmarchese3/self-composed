@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, TextInput, TouchableOpacity } from "react-native";
+import { StyleSheet, Text, View, TextInput, Pressable } from "react-native";
 import { NavBar } from '../components/NavBar';
 import { useNavigation } from '@react-navigation/native';
 
@@ -33,9 +33,9 @@ export default function SelfCareAdd() {
                     />
                 </View>
                 <View style={styles.buttonContainer}>
-                    <TouchableOpacity style={styles.button}>
+                    <Pressable style={styles.button} onPress={() => navigation.navigate('SelfCare')} >
                         <Text style={styles.buttonTitle} onClick={() => navigation.navigate('SelfCare')}>Submit</Text>
-                    </TouchableOpacity>
+                    </Pressable>
                 </View>
             </View>
             <View>

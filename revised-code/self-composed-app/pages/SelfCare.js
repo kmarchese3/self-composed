@@ -1,5 +1,5 @@
 // import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, FlatList, TouchableOpacity, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, FlatList, ScrollView, Pressable} from 'react-native';
 import { NavBar } from '../components/NavBar';
 import { useNavigation } from '@react-navigation/native';
 
@@ -18,9 +18,9 @@ export default function SelfCare() {
         <ScrollView>
         <View style={styles.headerContainer}>
             <Text style={styles.header}>Self Care</Text>
-            <TouchableOpacity style={styles.button}>
+            <Pressable onPress={() => navigation.navigate('SelfCareAdd')} >
                 <Text style={styles.buttonTitle} onClick={() => navigation.navigate('SelfCareAdd')}>+</Text>
-            </TouchableOpacity>
+            </Pressable>
         </View>
         <View>
             <FlatList
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
         paddingRight: 5,
     },
     buttonTitle: {
-        color: "green",
+        color: "#0A5200",
         fontSize: 30,
     },
     item: {
